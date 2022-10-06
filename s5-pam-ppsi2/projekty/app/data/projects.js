@@ -120,7 +120,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "lessons-plan-app",
         "features": [
             "Google Calendar API",
@@ -132,7 +132,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "prison-manager",
         "features": [
             "multitenancy",
@@ -144,7 +144,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "garage-expenses",
         "features": [
             "authentication (also social media)",
@@ -156,7 +156,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "city-game",
         "features": [
             "authentication (also social media)",
@@ -168,7 +168,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "charades",
         "features": [
             "global & local CRUD",
@@ -180,7 +180,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "where-have-i-been",
         "features": [
             "authentication (also social media)",
@@ -192,7 +192,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "insurance-calculator",
         "features": [
             "front/backend separation",
@@ -204,7 +204,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "homebrewing-storage",
         "features": [
             "authentication (also social media)",
@@ -213,6 +213,65 @@ let sourceProjects = [
             "handy interface",
             "front/backend separation",
             "logs"
+        ]
+    },
+    {
+        "active": true,
+        "title": "teletext",
+        "features": [
+            "multiple integrations (min. 5)",
+            "custom routing",
+            "content management system",
+            "proper interface",
+            "logs"
+        ]
+    },
+    {
+        "active": true,
+        "title": "ice-cream-places",
+        "features": [
+            "multitenancy",
+            "authentication (also social media)",
+            "ice creams shops map/list",
+            "flavours management",
+            "reviews",
+            "real data migration"
+        ]
+    },
+    {
+        "active": true,
+        "title": "railway-stations",
+        "features": [
+            "authentication (also social media)",
+            "stations collecting",
+            "map integation",
+            "social media functions",
+            "statistics + summaries",
+            "real data migration"
+        ]
+    },
+    {
+        "active": true,
+        "title": "travel-planner",
+        "features": [
+            "authentication (also social media)",
+            "places API integration",
+            "route optimization",
+            "summary print",
+            "paywall",
+            "i18n"
+        ]
+    },
+    {
+        "active": true,
+        "title": "modern-pantry",
+        "features": [
+            "authentication (also social media)",
+            "access sharing",
+            "CRUD for products",
+            "QR codes",
+            "notifications",
+            "statistics + summaries"
         ]
     }
 ];
