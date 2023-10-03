@@ -86,7 +86,7 @@
         },
         computed: {
           computedProjects () {
-            return this.projects.sort(function (a, b) {
+            return this.projects.reverse().sort(function (a, b) {
               return (a.active === b.active) ? 0 : a.active ? -1 : 1
             })
           },

@@ -1,6 +1,6 @@
 let sourceProjects = [
     {
-        "active": false,
+        "active": true,
         "title": "pizza-order-generator",
         "features": [
             "authentication (also social media)",
@@ -96,7 +96,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": false,
+        "active": true,
         "title": "kibol-alert",
         "features": [
             "authentication (also social media)",
@@ -144,7 +144,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": false,
+        "active": true,
         "title": "garage-expenses",
         "features": [
             "authentication (also social media)",
@@ -156,7 +156,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": false,
+        "active": true,
         "title": "city-game",
         "features": [
             "authentication (also social media)",
@@ -180,7 +180,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": false,
+        "active": true,
         "title": "where-have-i-been",
         "features": [
             "authentication (also social media)",
@@ -216,7 +216,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "teletext",
         "features": [
             "multiple integrations (min. 5)",
@@ -227,7 +227,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "ice-cream-places",
         "features": [
             "multitenancy",
@@ -239,7 +239,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "railway-stations",
         "features": [
             "authentication (also social media)",
@@ -251,7 +251,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "travel-planner",
         "features": [
             "authentication (also social media)",
@@ -263,7 +263,7 @@ let sourceProjects = [
         ]
     },
     {
-        "active": true,
+        "active": false,
         "title": "modern-pantry",
         "features": [
             "authentication (also social media)",
@@ -273,5 +273,41 @@ let sourceProjects = [
             "notifications",
             "statistics + summaries"
         ]
-    }
+    },
+    {
+        "active": true,
+        "title": "escooters",
+        "features": [
+            "authentication (also social media)",
+            "multiple integrations",
+            "map component",
+            "CRUD for administrator",
+            "email notifications",
+            "statistics",
+        ]
+    },
+    {
+        "active": true,
+        "title": "petrol-prices",
+        "features": [
+            "authentication (also social media)",
+            "map component",
+            "CRUD for administrator",
+            "community requests handling",
+            "social media functions",
+            "statistics",
+        ]
+    },
+    {
+        "active": true,
+        "title": "wine-tasting",
+        "features": [
+            "authentication (also social media)",
+            "CRUD for administrator",
+            "access sharing",
+            "session configurator",
+            "summaries",
+            "paywall",
+        ]
+    },
 ];
